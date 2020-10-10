@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    background-color: #dddd;
+}
+.header{
+    width: 100%;
+    background-color: #628dc7;
+    position: fixed;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    padding: 10px 30px;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+}
+.nav-menu ul li{
+    padding: 10px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 1px solid #fff;
+    color: #eee;
+}
+.brand-title{
+    color: #fff;
+    cursor: pointer;
+}
+.brand-title:hover{
+    color: #eee;
+}
+.bg-image{
+    background: url('../css/bg.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.content{
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    transform: translate(-10%,-50%);
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #628dc7;
+}
+.content p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+    margin-top: 10px;
+}
+.btn button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #628dc7;
+    color: #fff;
+    cursor: pointer;
+    font-family: poppins;
+    border: none;
+    outline: none;
+}
+#btn-2{
+    margin-left: 10px;
+    background: none;
+    color: #628dc7;
+    border: 1px solid #628dc7;
+}
+#btn-2:hover{
+    background-color: #628dc7;
+    color: #fff;
+}
